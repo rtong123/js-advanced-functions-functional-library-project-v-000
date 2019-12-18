@@ -60,10 +60,42 @@ const fi = (function() {
 
     },
 
-    size: function(){
+    size: function(numbers){
 
     },
-    
+
+    first: function(array){
+      return array[0]
+    },
+
+    last: function(){
+
+    },
+
+    compact: function(){
+
+    },
+
+    sortBy: function(){
+
+    },
+
+    flatten: function(){
+
+    },
+
+    uniq: function(){
+
+    },
+
+    keys: function(){
+
+    },
+
+    values: function(){
+
+    },
+
     functions: function() {
 
     },
