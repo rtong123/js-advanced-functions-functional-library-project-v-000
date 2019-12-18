@@ -35,10 +35,35 @@ const fi = (function() {
     return newArray
     },
 
-    reduce: function(numbers,cb,startingPoint) {
+    reduce: function(numbers,cb,startingPoint=undefined) {
+      var i
+      if (startingPoint){
+        var total = startingPoint
+        i = 0
+      }
+      else{
+        var total = numbers[0]
+        i = 1
+      }
+      for(i; i < numbers.length; i++){
+        total = cb(numbers[i],total)
+      }
+      return total
+    },
+
+    find: function(){
 
     },
 
+
+    filter: function(){
+
+    },
+
+    size: function(){
+
+    },
+    
     functions: function() {
 
     },
