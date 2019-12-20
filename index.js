@@ -68,11 +68,11 @@ const fi = (function() {
       return array[0]
     },
 
-    last: function(){
-
+    last: function(array){
+      return array[array.length - 1]
     },
 
-    compact: function(){
+    compact: function(numbers){
 
     },
 
@@ -92,8 +92,8 @@ const fi = (function() {
 
     },
 
-    values: function(){
-
+    values: function(numbers){
+      return numbers.values
     },
 
     functions: function() {
